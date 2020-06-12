@@ -9,8 +9,8 @@ cat | perl -pe 'chomp if eof' > ~/.jupyter/nbconfig/common.json <<EOF
 }
 EOF
 
-jupyter-nbextension install rise --py --sys-prefix
-jupyter-nbextension enable rise
+# jupyter-nbextension install rise --py --sys-prefix
+# jupyter-nbextension enable rise
 jupyter-nbextension enable splitcell/splitcell
 jupyter-nbextension enable hide_input/main
 
