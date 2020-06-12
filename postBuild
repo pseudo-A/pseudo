@@ -14,4 +14,4 @@ jupyter-nbextension enable rise
 jupyter-nbextension enable splitcell/splitcell
 jupyter-nbextension enable hide_input/main
 
-jupyter trust ./project01_crawling_jobpost/project01_crawling_jobpost_presentation.ipynb
+jupyter trust final.ipynb
